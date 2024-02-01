@@ -45,12 +45,24 @@ class Cards extends HTMLElement {
       text-decoration:none;
       color:yellow;
       font-weight:bold;
+      text-shadow:-1px 2px 4px black;
     }
     .card p{
       padding:5px;
       text-align:justify;
     }
-   
+   @media screen and (max-width:460px){
+    .card{
+      margin:20px auto;
+      background:#c5c5c9;
+      width:90%;
+      
+      height:auto;
+      border-radius: 10px;
+      border:1px solid yellow;
+     
+    }
+   }
     
     
     
